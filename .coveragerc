@@ -1,0 +1,12 @@
+[run]
+branch = True
+source = .
+omit =
+    tests/*
+    test_*.py
+    conftest.py
+    cfg_tools.py
+    setup.py
+
+[report]
+show_missing = True
