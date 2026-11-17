@@ -2,10 +2,10 @@
 branch = True
 source = .
 omit =
-    tests/*
     test_*.py
     conftest.py
     cfg_tools.py
+    conditions.py
     setup.py
 
 [report]
